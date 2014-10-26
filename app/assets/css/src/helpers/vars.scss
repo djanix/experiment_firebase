@@ -1,0 +1,7 @@
+$tablet: 1024px;
+$mobile: 540px;
+
+//usage: @include filter(grayscale, 100%);
+@mixin filter($filter-type, $filter-amount) {
+    filter: $filter-type+unquote('(#{$filter-amount})');
+}

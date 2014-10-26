@@ -1,0 +1,35 @@
+############
+## Windows
+############
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+############
+## Mac
+############
+# Mac crap
+.DS_Store
+
+############
+## PhpStorm
+############
+.idea
+atlassian-ide-plugin.xml
+
+############
+## NPM modules
+############
+npm-debut.log
+node_modules/
+
+############
+## SASS CACHE FOLDER
+############
+.sass-cache
+
+app/assets/css/dest
+app/assets/js/lib/*/
+app/assets/js/dest
